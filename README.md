@@ -1,10 +1,10 @@
 # CobaltStrike TeamServer Hunting
 
-It is (or was, when this was written in 2016) trivial to identify poorly configured hosts running CobaltStrike's teamserver.
+It is (or was, when this was written in 2016) trivial to identify poorly configured hosts running CobaltStrike's TeamServer. 
 
 ## How can we easily identify TeamServers ?
 
-CobaltStrike's operator interface runs on port 50050. 
+CobaltStrike's TeamServer "operator facing" interface runs on port 50050. 
 
 This service is wrapped in TLS.
 
