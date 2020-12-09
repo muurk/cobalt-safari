@@ -2,7 +2,6 @@
 
 It is (or was, when this was written in 2016) trivial to identify poorly configured hosts running CobaltStrike's teamserver.
 
-
 ## How can we easily identify TeamServers ?
 
 CobaltStrike's operator interface runs on port 50050. 
@@ -38,6 +37,8 @@ In this case, I focussed on:
 
 This project was put together to perform weekly audits of some large internet ranges in an attempt to identify and catalog poorly configured CobaltStrike team servers.
 
+# Results ?
+
 Over a period of a few years, I netted a chunky dataset full of domain names screenshots of phishing pages.
 
 It's an interesting catalog.
@@ -54,7 +55,7 @@ In a nutshell, here's the process:
 6. Pull out domain information from any recovered certificates
 7. Grab some screenshots of any web services
 
-## Is this technique still valid
+## Is this technique still valid ?
 
 :shrug: I've no idea if CobaltStrike continues to demonstrate this behaviour.
 
